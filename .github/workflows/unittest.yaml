@@ -18,7 +18,7 @@ jobs:
         with:
           python-version: '3.9'
           cache: 'pip'
-          cache-dependency-path: '**/requirements-dev.txt'
+          cache-dependency-path: '**/poetry.lock'
       - name: Install poetry
         run: pip3 install poetry
       - name: build
