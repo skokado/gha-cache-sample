@@ -23,6 +23,6 @@ jobs:
         run: pip3 install poetry
       - name: build
         run: |
-          poetry -D export -f requirements.txt -o requirements.lock
+          poetry export --dev -f requirements.txt -o requirements.lock
           pip3 install requirements.lock
       - run: pytest .
