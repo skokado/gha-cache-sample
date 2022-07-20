@@ -5,3 +5,7 @@ def test_import_libs():
 
 def test_case2():
     pass
+
+
+def test_case3():
+    pass
